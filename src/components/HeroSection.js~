@@ -1,0 +1,23 @@
+// src/components/HeroSection.js
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+
+const HeroSection = () => {
+  return (
+    <Container className="text-center mt-5">
+      <Row className="justify-content-center">
+        <Col md={8}>
+          <div className="hero-section p-5" style={{ backgroundColor: '#007bff', color: '#fff', borderRadius: '10px' }}>
+            <h1>Welcome to DealPoint</h1>
+            <p>
+              Make payments through chat with ease and security.
+            </p>
+            <Button variant="light">Get Started</Button>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default HeroSection;

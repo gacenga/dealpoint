@@ -1,0 +1,16 @@
+// src/components/Footer.js
+import React from 'react';
+
+const Footer = () => {
+  return (
+    <footer>
+      <p>© 2024 DealPoint. All rights reserved.</p>
+      <p>Follow us on social media!</p>
+      <div>
+        {/* Add social media links/icons here */}
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

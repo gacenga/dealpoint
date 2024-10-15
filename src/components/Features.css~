@@ -1,0 +1,27 @@
+/* src/components/Features.css */
+.features-container {
+  background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.feature-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.feature-description {
+  font-size: 1rem;
+}

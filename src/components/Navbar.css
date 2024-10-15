@@ -1,0 +1,6 @@
+/* src/components/Navbar.css */
+.navbar-title {
+  font-size: 2rem; /* Adjust this size for a larger title */
+  font-weight: bold; /* Make the title bold */
+  margin-right: auto; /* Push other items to the right */
+}

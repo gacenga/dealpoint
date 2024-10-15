@@ -1,0 +1,45 @@
+// src/components/Features.js
+import React from 'react';
+import './Features.css';
+
+const featuresData = [
+  {
+    title: 'Real-Time Trading',
+    description: 'Experience instant trading capabilities with live data.',
+    icon: '⚡️',
+  },
+  {
+    title: 'Advanced Analytics',
+    description: 'Utilize powerful tools to analyze market trends.',
+    icon: '📊',
+  },
+  {
+    title: 'User-Friendly Interface',
+    description: 'Navigate effortlessly through our modern platform.',
+    icon: '🖥️',
+  },
+  {
+    title: 'Secure Transactions',
+    description: 'Enjoy peace of mind with top-notch security protocols.',
+    icon: '🔒',
+  },
+];
+
+const Features = () => {
+  return (
+    <div className="features-section">
+      <h2>Our Features</h2>
+      <div className="features-grid">
+        {featuresData.map((feature, index) => (
+          <div className="feature-card" key={index}>
+            <div className="icon">{feature.icon}</div>
+            <h3>{feature.title}</h3>
+            <p>{feature.description}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Features;

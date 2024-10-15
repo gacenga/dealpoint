@@ -1,0 +1,25 @@
+/* src/components/HeroSection.css */
+.hero-section {
+  background-color: #007bff;
+  color: #fff; /* Set text color to white */
+  border-radius: 10px;
+  animation: fadeIn 1s ease-in-out; /* Add fadeIn animation */
+}
+
+.hero-title {
+  color: #fff; /* Ensure title color is white */
+  font-size: 2.5rem; /* Adjust size as needed */
+  font-weight: bold;
+}
+
+/* Animation for hero section */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
