@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dealpoint/static/css/main.770ab2f1.css",
+    "main.js": "/dealpoint/static/js/main.564038d6.js",
+    "static/js/453.f441685d.chunk.js": "/dealpoint/static/js/453.f441685d.chunk.js",
+    "index.html": "/dealpoint/index.html",
+    "main.770ab2f1.css.map": "/dealpoint/static/css/main.770ab2f1.css.map",
+    "main.564038d6.js.map": "/dealpoint/static/js/main.564038d6.js.map",
+    "453.f441685d.chunk.js.map": "/dealpoint/static/js/453.f441685d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.770ab2f1.css",
+    "static/js/main.564038d6.js"
+  ]
+}
